@@ -27,7 +27,7 @@ class Application(tk.Tk):
 
     def change_to_red(self):
         wallpaper_changer = WallpaperChanger()
-        wallpaper_changer.change_wallpaper("C:\\ChangeWallpaper\\wallpapers\\vermelho.png")
+        wallpaper_changer.change_wallpaper("C:\\ChangeWallpaper\\wallpapers\\vermelho.jpg")
         messagebox.showinfo("Mudança de Fundo", "Plano de fundo alterado para vermelho.")
 
     def change_to_blue(self):
